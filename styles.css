@@ -1,28 +1,29 @@
 h1 {
-    color: blue;
-    font-family: verdana; 
-    font-size: 70px;
-    text-align: center;
-  }
-  
-  p {
-    background: #c2c8fc;
-  }
-  
-  figure {
-    border: 1px solid black;
-    padding: 12px;
-    padding-bottom: 24px;
-  }
-  
-  figure img {
-    max-width: 80%;
-    height: auto;
-  }
-  
-  p img {
-    float: right;
-    max-width: 60%;
-    margin-left: 20px;
-    margin-bottom: 32px; 
-  }
+  color: blue;
+  font-family: verdana; 
+  font-size: 70px;
+  text-align: center;
+}
+
+p {
+  background: #c2c8fc;
+  font-family: sans-serif;
+}
+
+figure {
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+
+figure img {
+  max-width: 80%;
+  height: auto;
+}
+
+p img {
+  float: right;
+  max-width: 60%;
+  margin-left: 20px;
+  margin-bottom: 32px; 
+}
