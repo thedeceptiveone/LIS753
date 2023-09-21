@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: darkorange;
   font-family: verdana; 
   font-size: 70px;
   text-align: center;
@@ -19,6 +19,8 @@ figure {
 figure img {
   max-width: 80%;
   height: auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 p img {
@@ -30,7 +32,7 @@ p img {
 
 a {
   font-weight: bold;
-  font-color: orange;
+  color: orange;
 }
 
 ul li a {
@@ -39,4 +41,12 @@ ul li a {
 
 ul li a:hover {
   text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  border: 1px solid
 }
