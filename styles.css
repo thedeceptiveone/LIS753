@@ -5,6 +5,14 @@ h1 {
   text-align: center;
 }
 
+.skip-link {
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
+
 p {
   background: #c2c8fc;
   font-family: sans-serif;
