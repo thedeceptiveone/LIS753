@@ -6,11 +6,16 @@ h1 {
 }
 
 .skip-link {
-  transform: translateY(-100%);
+  color: orange;
+  left: 50%;
+  padding: 4px;
+  font-weight: 700;
+  position: absolute;
+  transform: translateY(-1000%)
 }
 
 .skip-link:focus {
-  transform: translateY(0%);
+  transform: translateY(-100%);
 }
 
 p {
@@ -38,12 +43,9 @@ p img {
   margin-bottom: 32px; 
 }
 
-a {
+ul li a {
   font-weight: bold;
   color: orange;
-}
-
-ul li a {
   text-decoration: none;
 }
 
@@ -57,4 +59,8 @@ ul {
   gap: 25px;
   list-style: none;
   border: 1px solid
+}
+
+body {
+  background: black;
 }
