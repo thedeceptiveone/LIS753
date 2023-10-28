@@ -23,6 +23,23 @@ body {
   .skip-link:focus {
     transform: translateY(-100%);
   }
+
+  nav ul li a {
+    font-weight: bold;
+    color: #8B4513;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #8B4513;
+  }
   
   main {
     display: flex;
@@ -60,7 +77,6 @@ body {
     justify-content: space-around;
     padding: 0;
     margin: 0;
-    list-style: none;
     gap: 20px;
   }
 
