@@ -7,8 +7,21 @@ body {
     font-size: 60px;
     text-align: center;
     background: #8B4513;
-    height: 100px;
+    min-height: 100px;
     padding-top: 30px;
+  }
+
+  .skip-link {
+    color: #8B4513;
+    left: 50%;
+    padding: 4px;
+    font-weight: 700;
+    position: absolute;
+    transform: translateY(-1000%)
+  }
+  
+  .skip-link:focus {
+    transform: translateY(-100%);
   }
   
   main {
@@ -21,6 +34,7 @@ body {
     padding: 10px;
     flex: 3 0px;
     min-width: 40%;
+    text-align: center;
   }
 
   figure {
