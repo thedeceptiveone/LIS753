@@ -91,4 +91,11 @@ body {
     .flex-container {
         flex-direction: column;
     }
+    #main-article {
+      max-width: 100%;
+    }
+    figure {
+      max-width: 80%;
+    }
   }
+  
