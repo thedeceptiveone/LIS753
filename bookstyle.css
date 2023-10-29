@@ -86,3 +86,9 @@ body {
     font-size: 18px;
     font-weight: bold;
   }
+
+  @media all and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+  }
