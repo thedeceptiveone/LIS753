@@ -8,19 +8,25 @@ h1#site-title {
 header nav ul li a {
   font-weight: bold;
   color: orange;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
 }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
   list-style: none;
+  text-align: center;
+}
 
+@media all and (min-width: 416px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+}
+  header nav ul li a {
+    text-decoration: none;
+}
 }
 
 header nav ul {
@@ -40,19 +46,24 @@ h2 {
   color:darkorange;
   font-family: verdana; 
   font-size: 30px;
+  padding-top: 20px;
 }
 
 .skip-link {
   color: orange;
-  left: 50%;
-  padding: 4px;
-  font-weight: 700;
-  position: absolute;
-  transform: translateY(-1000%)
 }
 
+@media all and (min-width: 416px) {
 .skip-link:focus {
   transform: translateY(-100%);
+}
+.skip-link {
+  padding: 4px;
+  left: 50%;
+  position: absolute;
+  transform: translateY(-1000%);
+  font-weight: 700;
+}
 }
 
 p {
@@ -71,9 +82,12 @@ figcaption {
   color: white;
 }
 
-figure img {
-  max-width: 80%;
+img {
+  max-width: 100%;
   height: auto;
+}
+
+figure img {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -83,22 +97,18 @@ figure.main-image {
   border-color: salmon;
 }
 
-figure.section-image {
-  max-width: 320px;
-  margin-bottom: 32px; 
-}
+@media all and (min-width: 416px) {
+  figure.section-image.odd {
+    float: right;
+    margin-left: 20px;
+  }
+  figure.section-image.even {
+    float: left;
+    margin-right: 20px;
+  }
+  }
 
-figure.section-image.odd {
-  float: right;
-  margin-left: 20px;
-}
-
-figure.section-image.even {
-  float: left;
-  margin-right: 20px;
-}
 p img {
-  max-width: 60%;
   margin-left: 20px;
   margin-bottom: 32px; 
 }
@@ -106,7 +116,12 @@ p img {
 footer nav ul li a {
   font-weight: bold;
   color: black;
-  text-decoration: none;
+}
+
+@media all and (min-width: 416px) {
+  footer nav ul li a {
+      text-decoration: none;
+  }
 }
 
 footer p {
