@@ -87,14 +87,14 @@ img {
   height: auto;
 }
 
-figure img {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 figure.main-image {
   background: coral;
   border-color: salmon;
+}
+
+figure.section-image {
+  max-width: 320px;
+  margin-bottom: 32px; 
 }
 
 @media all and (min-width: 416px) {
@@ -109,7 +109,6 @@ figure.main-image {
   }
 
 p img {
-  margin-left: 20px;
   margin-bottom: 32px; 
 }
 
