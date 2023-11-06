@@ -30,10 +30,10 @@ nav ul {
 }
 
 header nav ul {
-    padding: 5px;
+  padding: 5px;
   border-top: 1px solid;
   border-bottom: 1px solid;
-    border-color: orange;
+  border-color: orange;
 }
 
 h1 {
@@ -54,16 +54,16 @@ h2 {
 }
 
 @media all and (min-width: 416px) {
-.skip-link:focus {
-  transform: translateY(-100%);
-}
-.skip-link {
-  padding: 4px;
-  left: 50%;
-  position: absolute;
-  transform: translateY(-1000%);
-  font-weight: 700;
-}
+  .skip-link:focus {
+    transform: translateY(-100%);
+  }
+  .skip-link {
+    padding: 4px;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-1000%);
+    font-weight: 700;
+  }
 }
 
 p {
@@ -90,6 +90,7 @@ img {
 figure.main-image {
   background: coral;
   border-color: salmon;
+  justify-content: center;
 }
 
 figure.section-image {
