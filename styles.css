@@ -87,9 +87,13 @@ img {
   height: auto;
 }
 
-figure.main-image {
+figure.main-figure {
   background: coral;
   border-color: salmon;
+
+}
+
+.main-image {
   display: block;
   margin: auto;
 }
