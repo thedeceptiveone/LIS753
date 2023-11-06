@@ -90,7 +90,7 @@ img {
 figure.main-image {
   background: coral;
   border-color: salmon;
-  justify-content: center;
+  display: block;
 }
 
 figure.section-image {
