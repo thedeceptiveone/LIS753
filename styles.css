@@ -91,6 +91,7 @@ figure.main-image {
   background: coral;
   border-color: salmon;
   display: block;
+  margin: auto;
 }
 
 figure.section-image {
