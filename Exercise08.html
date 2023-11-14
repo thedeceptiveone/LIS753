@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>My Hello World Document</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <button onclick="darkMode()">Toggle dark mode</button>
+            <div id="message">Welcome to my page.<button onclick="document.getElementById('message').classList.add('hidden');">Hide</button>
+            </div>
+            <h1 id="page-title"> Hello, world!</h1>
+            <figure>
+            <img src="https://placekitten.com/600/400" alt="" >
+            <figcaption>Here is a Cat. He's not my cat.</figcaption>
+            </figure>
+            <p>Cruise life. Today I'm at sea.</p>
+            <p><img src="https://placekitten.com/400/400" alt="" >Tomorrow I will be visiting Pompei and Sorrento. Felice dal dai queste mai caduco scatto. Agonie ridere sai fra nostra calore sui sicure andare piu. Oro fiato ape lente ben avere dio. Eccesso essersi la vissuto seconda fremito re rimarro. So spesso agonie capace stessa giunta mentre su mi. Grado per nei parve era lauro credi forte.</p>
+            <script> function darkMode() {
+                document.body.classList.toggle('dark-mode');
+            }
+            </script>
+        </div>
+    </body>
+</html>

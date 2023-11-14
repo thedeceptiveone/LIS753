@@ -145,3 +145,34 @@ footer#page-footer {
 body {
   background: black;
 }
+
+#message {
+  background: lightblue;
+  border: 1px solid blue;
+  padding: 20px;
+  margin: 12px 0;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+
+#message.hidden {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+  
+}
+
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+body.dark-mode p {
+    background: black;
+  }
+body.dark-mode #message {
+  background-color: black;
+}
