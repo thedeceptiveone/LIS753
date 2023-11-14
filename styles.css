@@ -163,7 +163,6 @@ body {
 
 #message button {
   float: right;
-  
 }
 
 body.dark-mode {
@@ -172,6 +171,7 @@ body.dark-mode {
 }
 body.dark-mode p {
     background: black;
+    color: #ffffff;
   }
 body.dark-mode #message {
   background-color: black;
