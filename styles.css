@@ -169,10 +169,12 @@ body.dark-mode {
   background: #010101;
   color: #ffffff;
 }
+
 body.dark-mode p {
     background: black;
     color: #ffffff;
   }
+
 body.dark-mode #message {
   background-color: black;
 }
